@@ -1,0 +1,383 @@
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #eedcbb;
+}
+
+h1{
+    text-align: center;
+    color: #3f3300;
+    text-decoration: Arial, sans-serif;
+    font-weight: 800;
+}
+
+h2{
+margin-left: 150px;
+    color: #131313;
+    text-decoration: Arial, sans-serif;
+    font-weight: 650;
+}
+
+h3{
+    text-align: center;
+    color: #131313;
+   margin-left: 10px;
+   margin-right: 50px;
+}
+
+.testa{
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    margin-left: 50px; 
+    width: auto;
+    height: 400px;
+}
+
+.imagem2 {
+    margin-right: 50px; 
+    width: auto;
+    height: 400px;
+}
+
+.goiaba{
+    text-align: center;
+    color: #131313;
+}
+
+.poker{
+    width: 450px; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Mantém a proporção da imagem */
+    margin-left: 20px;
+}
+
+
+.comidaa {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    padding: 20px;
+    gap: 20px; /* Espaço entre os itens */
+    margin-right: 660px;
+    margin-left: 20px;
+}
+
+.itemm {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    width: 100%; /* Garante que o item ocupe a largura disponível */
+    max-width: 900px; /* Define a largura máxima para o item */
+}
+
+.bauru {
+    width: auto; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Mantém a proporção da imagem */
+}
+
+.urutu {
+    width: 450px; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Mantém a proporção da imagem */
+}
+
+.texto{
+text-align: center;
+margin-right: -200px;
+}
+
+.roma{
+    margin-left: 690px;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.carro{
+    text-align: center;
+    color: #131313;
+   margin-left: 195px;
+   margin-right: 50px;
+}
+
+.hmm{
+  
+        background-color:#eedcbb;
+        color: #ffeaca;
+        padding: 20px;
+        margin: 5px;
+        width: 700px;
+        height: 370px;
+        border-radius: 10px;
+        vertical-align: top;
+        margin-left: 50px;
+        margin-right: auto;
+        width: 950px;
+        margin-top: 30px;
+  
+}
+
+.hmm h3{
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 2px;
+    margin-top: -300px;
+
+}
+
+.pooker{
+    width: 300px; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Mantém a proporção da imagem */
+    margin-left: 170px;
+}
+
+.billie{
+  
+    background-color:#eedcbb;
+    color: #ffeaca;
+    padding: 20px;
+    margin: 5px;
+    width: 700px;
+    height: 370px;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 950px;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.billie h3{
+text-align: justify;
+margin-left: 600px;
+margin-right: 2px;
+margin-top: -300px;
+
+}
+
+
+label{
+    color: #131313;
+    text-align: center;
+}
+
+input[type="text"],input[type="number"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+input[type="submit"] {
+ 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+input [type="submit" value="Enviar"],{
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.textarea {
+    resize: vertical; 
+}
+
+
+input[type="submit"] {
+    background-color: #5c3305;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color:
+    border-radius: 5px;
+}
+
+.texxto {
+    margin-right: -200px;
+ }
+
+ .texxxto {
+    margin-right: -550px;
+ }
+
+ .texto {
+    margin-right: 50px;
+ }
+
+.local{
+    background-color: #968053;
+    color: #ffeaca;
+    padding: 20px;
+    margin: 5px;
+    width: 735px;
+    height: 501px;
+    border-radius: 10px;
+}
+
+li{
+    width: 130px;
+}
+
+a{
+    text-decoration: none;
+    color: #131313;
+
+}
+
+
+img{
+    width: 287px;
+    height: 200px;
+    border-radius: 5px;
+margin-left: 3px;
+}
+
+.menu{
+ 
+    display: flex;
+     justify-content: center;
+    flex-wrap: wrap; 
+
+}
+
+.menu li a:hover{
+    background-color: #a58453;
+    color: #d1b284;
+}
+
+.hearder{
+    background-color: #cfb695;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   height: 150px;
+
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+.menu li a{
+    display: block;
+    padding: 12px;
+}
+
+.item{
+    margin-top: 60px;
+    background-color: #B84E2E;
+    padding: 20px;
+    width: 779px;
+    height: 537px;
+    border-radius: 10px;
+    margin-left: 340px;
+    text-decoration: DejaVu Sans Mono, monospace;
+    color: #131313;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+    border-style: solid;
+    margin-bottom: 70px;
+    border-width: 2px;
+    background-color: #7d6747;
+    color: #d1b284;
+    transition: 0.4s;
+
+}
+
+.much-more{
+    background-color: #472b01;
+    border: #c29587;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    height: 30px;
+    transition: 0.3s;
+    margin-left: 320px;
+
+}
+
+.alaba{
+    height: 200px; 
+    text-align: center; 
+    
+}
+
+.logo{
+    width: auto;
+    height: 210px;
+
+   margin-top: -32px ;
+    
+    
+}
+
+.sobre {
+    margin-bottom: 40px;
+
+    .sobre{
+   
+            color: #3f3300;
+            font-size: 2em;
+            border-bottom: 2px solid #7d6747;
+            padding-bottom: 10px;
+       
+    }
+
+    .ugabuga{
+      margin-right: 170px;
+    }
+}
+.visao h2 {
+    color: #3f3300;
+    font-size: 2em;
+    border-bottom: 2px solid #7d6747;
+    padding-bottom: 10px;
+}
+.sobre p {
+    line-height: 1.6;
+    color: #333;
+    font-size: 1.1em;
+}
+.sobre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.nos {
+    text-align: center;
+}
+
+
+.gota{
+    width: 550px ;
+    height: auto;
+}
